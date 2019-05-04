@@ -1,0 +1,67 @@
+body {
+    background-color: rgba(135, 207, 235, 0.849);
+    color: white;
+    font-size: 28px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+#header {
+    display: flex;
+    justify-content: center;
+    border-bottom-left-radius: 25%;
+    border-bottom-right-radius: 25%;
+    font-family: 'Dosis', sans-serif;
+    font-size: 32px;
+    color: rgba(20, 17, 17, 0.973);
+    background-color: rgba(255, 99, 71, 0.603);
+    text-align: center;
+}
+
+#main {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    justify-content: space-around;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+}
+
+#left {
+    display: flex;
+    flex-direction: column;
+    background-color: goldenrod;
+    min-width: 360px;
+}
+
+#right {
+    display: flex;
+    flex-direction: column;
+    background-color: maroon;
+    max-width: 360px;
+}
+
+#center {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #34495e;
+    flex-grow: 2;
+    text-align: center;
+    max-width: 968px;
+}
+
+#footer {
+    display: flex;
+    flex-direction: row;
+    background-color: tomato;
+}
+
+
+/* want to learn css grid too! */
+/* .container {
+    display: grid;
+    grid-template-columns: [first] 50px [line 2] auto 50px;
+    grid-template-rows: 25% auto 10%;
+} */
