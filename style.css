@@ -45,6 +45,7 @@ body {
     align-items: center;
     justify-content: space-evenly;
     margin-bottom: 10px;
+    font-weight: 600;
 }
 
 #center {
