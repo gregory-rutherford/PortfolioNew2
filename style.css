@@ -1,0 +1,123 @@
+body {
+    background-color: #a4b8c4;
+    font-size: 28px;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+
+#header {
+    display: flex;
+    justify-content: center;
+    border-bottom-left-radius: 25%;
+    border-bottom-right-radius: 25%;
+    font-family: 'Dosis', sans-serif;
+    font-size: 32px;
+    color: rgba(20, 17, 17, 0.973);
+    background-color: #d9d0de;
+    text-align: center;
+    border-bottom: 2px solid rgba(128, 128, 128, 0.473);
+}
+
+#main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-family: 'Dosis', sans-serif;
+    text-align: center;
+    background-color: #a4b8c4;
+}
+
+#left {
+    display: flex;
+    flex-direction: column;
+    min-width: 360px;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 10px;
+}
+
+#right {
+    display: flex;
+    flex-direction: column;
+    min-width: 360px;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+#center {
+    display: flex;
+    flex-grow: 2;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    max-width: 968px;
+    background-color: #bfada3;
+    border-left: 2px solid rgba(128, 128, 128, 0.473);
+    border-right: 2px solid rgba(128, 128, 128, 0.473);
+    line-height: 40px;
+    padding: 20px;
+    font-size: 30px;
+}
+
+#footer {
+    display: flex;
+    flex-direction: row;
+    background-color: #c09bae;
+    justify-content: center;
+    font-family: 'Dosis', sans-serif;
+    border-top: 2px solid rgba(128, 128, 128, 0.473);
+}
+
+img {
+    height: 150px;
+    width: 250px;
+    border: 1px solid rgba(128, 128, 128, 0.473);
+    border-radius: 10%;
+}
+
+#koala {
+    height: 325px;
+    margin: 10px;
+    border: 1px solid #d9d0de;
+}
+
+#emphasize {
+    font-weight: 600;
+}
+
+.code {
+    font-size: 18px;
+    margin-top: 8px;
+}
+
+#gitIcon {
+    font-size: 60px;
+    margin-top: 60px;
+    
+}
+
+a:link, a:visited {
+    color: black;
+}
+
+a:hover {
+    color: rgb(73, 140, 160);
+}
+
+@media all and (max-width: 975px) {
+
+    #main {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .special {
+        margin: 20px;
+    }
+  }
