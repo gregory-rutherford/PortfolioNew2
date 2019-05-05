@@ -123,7 +123,7 @@ a:hover {
     }
   }
 
-  @media all and (min-width: 2561px) {
+  @media all and (min-width: 1920px) {
       main {
           height: 100vh;
       }
