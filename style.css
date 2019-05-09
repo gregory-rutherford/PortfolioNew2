@@ -3,7 +3,7 @@ body {
     font-size: 28px;
     display: flex;
     flex-direction: column;
-    height: 100vh;
+    min-height: 100vh;
 }
 
 
@@ -18,7 +18,6 @@ body {
     background-color: #d9d0de;
     text-align: center;
     border-bottom: 2px solid rgba(128, 128, 128, 0.473);
-    z-index: 99;
 }
 
 #main {
@@ -28,7 +27,7 @@ body {
     font-family: 'Dosis', sans-serif;
     text-align: center;
     background-color: #a4b8c4;
-    
+    flex: 1;
 }
 
 #left {
@@ -115,7 +114,6 @@ a:hover {
     #main {
         display: flex;
         flex-wrap: wrap;
-        width: 100%;
     }
 
     .special {
@@ -128,8 +126,16 @@ a:hover {
     }
   }
 
-  @media all and (min-width: 975px) {
+  /* @media all and (min-width: 975px) {
       main {
           height: 100vh;
       }
-  }
+  } */
+
+  /* @media all and (max-height: 800){
+      body {
+          display: flex;
+          align-items: stretch;
+      }
+  } */
+    
