@@ -121,9 +121,14 @@ a:hover {
     .special {
         margin: 20px;
     }
+
+    #header {
+        border-bottom-left-radius: 0%;
+        border-bottom-right-radius: 0%;
+    }
   }
 
-  @media all and (min-width: 1920px) {
+  @media all and (min-width: 975px) {
       main {
           height: 100vh;
       }
