@@ -84,6 +84,7 @@ img {
 
 #koala {
     height: 325px;
+    width: 250px !important;
     margin: 10px;
     border: 1px solid #d9d0de;
 }
