@@ -1,5 +1,5 @@
 body {
-    background-color: #a4b8c4;
+    background-color: #bac5dd ;
     font-size: 28px;
     display: flex;
     flex-direction: column;
@@ -15,7 +15,7 @@ body {
     font-family: 'Dosis', sans-serif;
     font-size: 32px;
     color: rgba(20, 17, 17, 0.973);
-    background-color: #d9d0de;
+    background-color: #f4cac6;
     text-align: center;
     border-bottom: 2px solid rgba(128, 128, 128, 0.473);
 }
@@ -26,7 +26,7 @@ body {
     justify-content: space-around;
     font-family: 'Dosis', sans-serif;
     text-align: center;
-    background-color: #a4b8c4;
+    background-color: #bac5dd;
     flex: 1;
 }
 
@@ -58,7 +58,7 @@ body {
     align-items: center;
     justify-content: center;
     text-align: center;
-    background-color: #bfada3;
+    background-color: #a2acc1;
     border-left: 2px solid rgba(128, 128, 128, 0.473);
     border-right: 2px solid rgba(128, 128, 128, 0.473);
     line-height: 40px;
@@ -69,7 +69,7 @@ body {
 #footer {
     display: flex;
     flex-direction: row;
-    background-color: #c09bae;
+    background-color: #f4cac6;
     justify-content: center;
     font-family: 'Dosis', sans-serif;
     border-top: 2px solid rgba(128, 128, 128, 0.473);
@@ -101,7 +101,7 @@ a:link, a:visited {
 }
 
 a:hover {
-    color: rgb(73, 140, 160);
+    color: #fc978e;
 }
 
 @media all and (max-width: 975px) {
@@ -133,6 +133,13 @@ a:hover {
     }
   }
 
+  @media all and (max-width: 555px) {
+    #center {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+  }
   /* @media all and (min-width: 975px) {
       main {
           height: 100vh;
